@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Галерея</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Галерея изображений</h2>
+    <div class="gallery">
+        <img src="1.jpg" alt="img 1" onclick="showImage(this)">
+        <img src="2.jpg" alt="img 2" onclick="showImage(this)">
+        <img src="3.jpg" alt="img 3" onclick="showImage(this)">
+    </div>
+    <div class="large-image" id="largeImageContainer">
+        <img id="largeImage" src="" alt="Увеличенение">
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

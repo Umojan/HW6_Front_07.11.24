@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Регистрация</h2>
+    <form id="registrationForm">
+        <label>Имя:</label>
+        <input type="text" id="name" required>
+        <span class="error" id="nameError"></span>
+
+        <label>Email:</label>
+        <input type="email" id="email" required>
+        <span class="error" id="emailError"></span>
+
+        <label>Пароль:</label>
+        <input type="password" id="password" required>
+        <span class="error" id="passwordError"></span>
+
+        <button type="button" onclick="validateForm()">Отправить</button>
+    </form>
+    <script src="scripts.js"></script>
+</body>
+</html>

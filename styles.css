@@ -1,0 +1,9 @@
+body { font-family: Arial, sans-serif; }
+form { max-width: 300px; margin: auto; }
+label { display: block; margin-top: 10px; }
+input { width: 100%; padding: 8px; margin-top: 5px; }
+.error { color: red; font-size: 0.9em; }
+
+
+.gallery img { width: 100px; margin: 5px; cursor: pointer; }
+.large-image img { width: 400px; display: block; margin: 0 auto; }
